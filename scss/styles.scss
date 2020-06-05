@@ -1,0 +1,776 @@
+@import "variables";
+@import "mixins";
+
+body {
+  //Header Styling
+
+  > img {
+    width: 100%;
+    margin-top: -20px;
+  }
+  header {
+    width: 1205px;
+
+    background-color: none;
+    .navbar {
+      width: 100%;
+      height: 72px;
+      margin-top: 30px;
+      box-shadow: 1px 1px 13px rgba(0, 0, 0, 0.12);
+      border-radius: 10px;
+      .navbar-nav {
+        background: #fff;
+        width: 100%;
+        max-width: 300px;
+        justify-content: space-around;
+        .nav-item {
+          display: flex;
+          align-items: center;
+          .nav-link {
+            // Style for Header Menu
+            width: 59px;
+            padding: 0px;
+            color: #4f4f4f;
+            font-family: $font-blogger-medium;
+            font-size: 16px;
+            font-weight: 500;
+          }
+          .dropdown-item {
+            color: #4f4f4f;
+            font-family: $font-blogger-medium;
+            font-size: 16px;
+            font-weight: 500;
+            margin-top: 0px;
+          }
+        }
+      }
+      .navbar-collapse {
+        z-index: 300;
+      }
+    }
+  }
+
+  .breadcrumb {
+    background-color: #f8f8f8;
+    margin-top: 10px;
+    .breadcrumb-item {
+      a {
+        color: #2f2d2d;
+        font-family: $font-pt-sans;
+        font-weight: 400;
+        letter-spacing: 3px;
+        line-height: 25px;
+        font-size: 20px;
+        text-transform: uppercase;
+      }
+      &.active {
+        color: #dd0031;
+        font-family: $font-pt-sans;
+        font-weight: 700;
+        letter-spacing: 3px;
+        line-height: 25px;
+        text-transform: uppercase;
+      }
+    }
+  }
+  p.summary {
+    color: #2f2d2d;
+    font-family: $font-pt-sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  .img-info-container {
+    position: relative;
+    img {
+      width: 100%;
+      border-radius: 5px;
+      height: auto;
+    }
+    .img-info-container-child {
+      position: absolute;
+      background: #fff;
+      max-width: 606px;
+      width: 100%;
+      height: 246px;
+      border-radius: 0 0 0 5px;
+      bottom: 0px;
+      div {
+        padding: 25px 40px;
+        > h6 {
+          color: #4f4f4f;
+          font-family: $font-blogger-regular;
+          font-size: 20px;
+          letter-spacing: 3px;
+          text-transform: uppercase;
+        }
+        > h4 {
+          color: #dd0031;
+          font-family: $font-blogger-medium;
+          font-size: 40px;
+          font-weight: 500;
+          line-height: 46px;
+        }
+      }
+      .social-icons {
+        i {
+          color: #fff;
+          background: #dd0031;
+          width: 30px;
+          height: 30px;
+          padding: 7px;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  //styling for recipe.html
+  .recipes-container {
+    margin-top: 30px;
+    p.summary {
+      color: #2f2d2d;
+      font-family: $font-pt-sans;
+      font-size: 20px;
+      font-weight: 700;
+      opacity: 0.9;
+    }
+    button {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      color: #4f4f4f;
+      font-family: $font-blogger-bold;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 34px;
+      opacity: 0.9;
+    }
+    .recipes {
+      margin-bottom: 60px;
+      .recipes-title {
+        color: #4f4f4f;
+        font-family: $font-blogger-medium;
+        font-size: 35px;
+        font-weight: 500;
+        margin-bottom: 30px;
+      }
+      .card {
+        margin-bottom: 20px;
+        .card-body {
+          position: absolute;
+          bottom: 0;
+          background: #f8f8f8;
+          width: 100%;
+          height: 70px;
+          font-family: $font-pt-sans;
+          font-size: 20px;
+          font-weight: 700;
+          p {
+            color: #d90232;
+          }
+        }
+      }
+    }
+  }
+  //styling for product-line.html
+
+  .product-line-container {
+    .product-line-title {
+      padding: 30px 0px;
+      color: #2a7bbe;
+      font-family: $font-blogger-medium;
+      font-size: 50px;
+      font-weight: 500;
+    }
+    .card-item {
+      .card {
+        height: 500px;
+        border-radius: 10px;
+
+        padding: 30px;
+        &:hover {
+          background-color: #f8f8f8;
+          .card-title a {
+            color: #dd0031;
+          }
+        }
+        .card-title {
+          flex: 0;
+          margin-top: 4rem;
+          a {
+            color: #4f4f4f;
+            font-family: $font-blogger-medium;
+            font-size: 25px;
+            font-weight: 500;
+            &:hover {
+              text-decoration: unset;
+            }
+          }
+        }
+      }
+    }
+    .product-info {
+      margin-top: 50px;
+      h5 {
+        color: #dd0031;
+        font-family: $font-blogger-medium;
+        font-size: 35px;
+        font-weight: 500;
+      }
+      p {
+        color: #4f4f4f;
+        font-family: $font-pt-sans;
+        font-size: 12px;
+        font-weight: 400;
+      }
+    }
+    .find-us {
+      color: #dd0031;
+      font-family: $font-blogger-medium;
+      font-size: 35px;
+      font-weight: 500;
+      padding: 30px 0px;
+    }
+  }
+
+  //styling for recipes in recipe_single.html
+  .recipe-single-container {
+    .summary-recipe {
+      .ingredients-title {
+        color: #dd0031;
+        font-family: $font-blogger-medium;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 40px;
+        text-transform: uppercase;
+      }
+      .steps {
+        > div.step-number {
+          text-align: center;
+          width: 42px;
+          height: 42px;
+          background: #dd0031;
+          border-radius: 50%;
+          flex: 0;
+          span {
+            color: #ffffff;
+            font-family: $font-blogger-medium;
+            font-size: 30px;
+            font-weight: 500;
+            line-height: 37px;
+          }
+        }
+        .step-description {
+          color: #2f2d2d;
+          font-family: $font-pt-sans;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 25px;
+        }
+      }
+      .jumbotron {
+        background-color: #f8f8f8;
+        ul {
+          li {
+            color: #2f2d2d;
+            font-family: $font-pt-sans;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 36px;
+            list-style: none;
+          }
+        }
+      }
+      .product {
+        h5 {
+          color: #4f4f4f;
+          font-family: $font-blogger-medium;
+          font-size: 20px;
+          font-weight: 500;
+          letter-spacing: 2px;
+          line-height: 37px;
+          text-transform: uppercase;
+        }
+        h3 {
+          color: #2a7bbe;
+          font-family: $font-blogger-medium;
+          font-size: 30px;
+          font-weight: 500;
+          line-height: 37px;
+        }
+        a {
+          max-width: 167px;
+          width: 100%;
+          text-align: left;
+          color: #fff;
+          i {
+            float: right;
+            margin-top: 5px;
+          }
+        }
+      }
+      p.instructions {
+        color: #2f2d2d;
+        font-family: $font-pt-sans;
+        font-size: 12px;
+        font-weight: 400;
+      }
+    }
+    .recipe-list {
+      p.h4 {
+        color: #dd0031;
+        font-family: $font-blogger-bold;
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 1.6px;
+        text-transform: uppercase;
+      }
+      .card {
+        .card-body {
+          color: #4f4f4f;
+          font-family: $font-blogger-medium;
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 25px;
+          height: 67px;
+        }
+      }
+    }
+  }
+  //styling for recipes in recipe_single.html ends
+
+  //cards genereal styling for recipes and recipe-single
+  .card {
+    border: unset;
+    .card-text {
+      color: #4f4f4f;
+      font-family: $font-blogger-medium;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 25px;
+    }
+  }
+  //cards styiling ends
+
+  //styles for vainilla, fresa and chocolate views
+  .container-fluid {
+    .product-fresa-small,
+    .product-vainilla-small,
+    .product-chocolate-small {
+      width: 134px;
+      height: 134px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      background-color: #ffffff;
+      margin: 25px;
+      border-radius: 50%;
+      padding: 15px;
+    }
+    /*     a {
+      color: #4f4f4f;
+      font-family: $font-blogger-medium;
+      font-size: 14px;
+      font-weight: 500;
+      margin-top: -15px;
+      &:hover {
+        text-decoration: none;
+      }
+    } */
+  }
+  //styles for vainilla, fresa and chocolate views ends
+
+  //Body content Styling
+  .body-content {
+    max-width: 1300px;
+    .jumbotron {
+      background-color: unset;
+      max-width: 818px;
+      line-height: 48px;
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+      .title {
+        color: #dd0031;
+        font-family: $font-blogger-bold;
+        font-size: 35px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 0;
+      }
+      .content {
+        color: #434343;
+        font-family: $font-blogger-regular;
+        font-size: 35px;
+        opacity: 0.9;
+        img {
+          position: absolute;
+          margin: 0 auto;
+          left: 0;
+          max-width: 980px;
+          right: 0;
+          height: 387px;
+          width: 100%;
+        }
+      }
+    }
+    .plan {
+      padding-top: 60px;
+      max-width: 1300px;
+
+      .row {
+        max-width: 1300px;
+        margin-bottom: 200px;
+        .item {
+          flex-grow: 0;
+          margin-right: 20px;
+          img {
+            width: 100%;
+            height: 179px;
+            max-width: 391px;
+            &:hover {
+              -webkit-transform: scale(1.1);
+              -moz-transform: scale(1.1);
+              -ms-transform: scale(1.1);
+              -o-transform: scale(1.1);
+              transform: scale(1.1);
+            }
+          }
+        }
+      }
+    }
+    .slick-container {
+      a {
+        color: #2a7bbe;
+        font-family: $font-blogger-medium;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 48px;
+        margin-top: 60px;
+        img {
+          width: 100%;
+          max-width: 215px;
+        }
+        &:hover {
+          text-decoration: none;
+        }
+      }
+      .slick-center {
+        &.slick-active {
+          a {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+//how-it-works view
+.how-it-works {
+  .lower-title {
+    color: #dd0031;
+    font-family: $font-blogger-medium;
+    font-size: 35px;
+    font-weight: 500;
+    margin: 50px 0px;
+  }
+  .image-container {
+    .image-logo {
+      &:hover {
+        transform: unset;
+      }
+    }
+    img {
+      margin: 20px 0px;
+      &:hover {
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+      }
+    }
+  }
+  .col-md-7 {
+    img {
+      margin: 30px 0px;
+    }
+    .stretched-link {
+      text-decoration: none;
+    }
+  }
+  p {
+    color: #4f4f4f;
+    font-family: $font-blogger-regular;
+    font-size: 30px;
+    line-height: 50px;
+  }
+  .tips {
+    padding-bottom: 80px;
+    img {
+      height: 96px;
+    }
+    .tip {
+      color: #2f2d2d;
+      font-family: $font-pt-sans;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: unset;
+      margin-top: 30px;
+    }
+  }
+}
+//how it works styles end
+
+//vainilla-view, chocolate-view and fresa-view containers
+.vainilla-container,
+.fresa-container,
+.chocolate-container {
+  padding-top: 30px;
+  h2 {
+    color: #2a7bbe;
+    font-family: $font-blogger-medium;
+    font-size: 50px;
+    font-weight: 500;
+  }
+  .summary {
+    color: #4f4f4f;
+    font-family: $font-blogger-medium;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 37px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+  }
+  > .row {
+    .title-small {
+      a.fresa-descripcion,
+      a.chocolate-descripcion,
+      a.vainilla-descripcion {
+        color: #4f4f4f;
+        font-family: $font-blogger-medium;
+        font-size: 14px;
+        font-weight: 500;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  .product-vainilla,
+  .product-chocolate,
+  .product-fresa {
+    img {
+      width: 100%;
+      position: absolute;
+      bottom: 0px;
+    }
+    .image-info {
+      display: none;
+    }
+    .hover {
+      cursor: pointer;
+      &:hover img.image-info {
+        display: block;
+        position: absolute;
+        left: 85%;
+        bottom: -175px;
+      }
+    }
+    .col-md-6.big-image.hover {
+      &:hover img.image-info {
+        left: 90%;
+      }
+    }
+    a.btn {
+      position: absolute;
+      bottom: -70px;
+      left: 35%;
+    }
+  }
+  .brands-container {
+    .col-md-2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+  }
+  .lower-title {
+    color: #dd0031;
+    font-family: $font-blogger-medium;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+  .find-us {
+    color: #dd0031;
+    font-family: $font-blogger-medium;
+    font-size: 35px;
+    font-weight: 500;
+  }
+}
+//vainilla styling ends
+
+//Footer Styling
+footer {
+  padding-bottom: 30px;
+  background-color: #f8f8f8;
+  .footer {
+    padding-top: 60px;
+    padding-bottom: 80px;
+    > .footer-title > h3 {
+      text-align: center;
+      color: #dd0031;
+      font-family: $font-blogger-medium;
+      font-size: 20px;
+      font-weight: 500;
+    }
+  }
+  .footer-menu {
+    .row {
+      .footer-menu {
+        margin-left: 10px;
+        ul {
+          li {
+            a {
+              width: 57px;
+              height: 22px;
+              color: #2f2d2d;
+              font-family: $font-pt-sans;
+              font-size: 14px;
+              font-weight: 700;
+              line-height: 22px;
+              text-transform: uppercase;
+              margin-right: 70px;
+              &:hover {
+                text-decoration: none;
+              }
+              &.original {
+                text-transform: lowercase;
+                font-weight: 400;
+              }
+            }
+            &:hover a {
+              color: #de1a33;
+            }
+            &:hover a.original {
+              color: #2f2d2d;
+            }
+          }
+        }
+      }
+    }
+  }
+  .footer-copyright {
+    height: 16px;
+    color: #2f2d2d;
+    font-family: $font-pt-sans;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 80px;
+  }
+}
+//footer styling ends
+
+@media only screen and(max-width: $breakpoint-small-phone) {
+  body {
+    #navbarNav > ul > li.nav-item.dropdown.show > ul {
+      position: absolute;
+    }
+    header .navbar .navbar-nav {
+      padding: 20px;
+      box-shadow: 1px 1px 13px rgba(0, 0, 0, 0.32);
+      border-radius: 4px;
+      .nav-item {
+        margin-top: 10px;
+      }
+    }
+
+    .recipes-container {
+      text-align: center;
+    }
+    /*Plans*/
+    .body-content .plan {
+      .plan-title {
+        img {
+          width: 100%;
+        }
+      }
+      .row {
+        margin-bottom: 10px;
+        .item {
+          margin-right: 0px;
+        }
+      }
+    }
+    .img-info-container .img-info-container-child {
+      position: relative;
+    }
+    .vainilla-container,
+    .fresa-container,
+    .chocolate-container {
+      .product-vainilla,
+      .product-chocolate,
+      .product-fresa {
+        .small-image,
+        .big-image {
+          text-align: center;
+        }
+        img {
+          position: relative;
+          padding-bottom: 30px;
+        }
+        a.btn {
+          position: relative;
+          bottom: 10px;
+          left: 0px;
+        }
+      }
+      .flex-xs-column {
+        flex-direction: column;
+        margin-bottom: 50px;
+      }
+    }
+    footer {
+      .footer {
+        padding: 20px 0px;
+      }
+      .container .row .footer-menu ul li {
+        margin-top: 30px;
+        a {
+          margin-right: 0px;
+        }
+      }
+      .footer-copyright {
+        margin-top: 10px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+@media only screen and(min-width: $breakpoint-smart-phone) {
+  body {
+    #navbarNav > ul > li.nav-item.dropdown.show > ul {
+      position: absolute;
+    }
+    .vainilla-container,
+    .fresa-container,
+    .chocolate-container {
+      .product-vainilla,
+      .product-chocolate,
+      .product-fresa {
+        a.btn {
+          left: 20%;
+        }
+      }
+    }
+    .slick-initialized .slick-slide a {
+      font-size: 12px;
+    }
+  }
+}
+@media only screen and(min-width: $breakpoint-desktop) {
+  body {
+    .slick-initialized .slick-slide a {
+      font-size: 20px;
+    }
+  }
+}

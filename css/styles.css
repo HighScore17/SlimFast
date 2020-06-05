@@ -1,0 +1,778 @@
+body > img {
+  width: 100%;
+  margin-top: -20px;
+}
+body header {
+  width: 1205px;
+  background-color: none;
+}
+body header .navbar {
+  width: 100%;
+  height: 72px;
+  margin-top: 30px;
+  box-shadow: 1px 1px 13px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+}
+body header .navbar .navbar-nav {
+  background: #fff;
+  width: 100%;
+  max-width: 300px;
+  justify-content: space-around;
+}
+body header .navbar .navbar-nav .nav-item {
+  display: flex;
+  align-items: center;
+}
+body header .navbar .navbar-nav .nav-item .nav-link {
+  width: 59px;
+  padding: 0px;
+  color: #4f4f4f;
+  font-family: "Blogger Medium";
+  font-size: 16px;
+  font-weight: 500;
+}
+body header .navbar .navbar-nav .nav-item .dropdown-item {
+  color: #4f4f4f;
+  font-family: "Blogger Medium";
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 0px;
+}
+body header .navbar .navbar-collapse {
+  z-index: 300;
+}
+body .breadcrumb {
+  background-color: #f8f8f8;
+  margin-top: 10px;
+}
+body .breadcrumb .breadcrumb-item a {
+  color: #2f2d2d;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  letter-spacing: 3px;
+  line-height: 25px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+body .breadcrumb .breadcrumb-item.active {
+  color: #dd0031;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+body p.summary {
+  color: #2f2d2d;
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+}
+body .img-info-container {
+  position: relative;
+}
+body .img-info-container img {
+  width: 100%;
+  border-radius: 5px;
+  height: auto;
+}
+body .img-info-container .img-info-container-child {
+  position: absolute;
+  background: #fff;
+  max-width: 606px;
+  width: 100%;
+  height: 246px;
+  border-radius: 0 0 0 5px;
+  bottom: 0px;
+}
+body .img-info-container .img-info-container-child div {
+  padding: 25px 40px;
+}
+body .img-info-container .img-info-container-child div > h6 {
+  color: #4f4f4f;
+  font-family: "Blogger Regular";
+  font-size: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+body .img-info-container .img-info-container-child div > h4 {
+  color: #dd0031;
+  font-family: "Blogger Medium";
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 46px;
+}
+body .img-info-container .img-info-container-child .social-icons i {
+  color: #fff;
+  background: #dd0031;
+  width: 30px;
+  height: 30px;
+  padding: 7px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+body .recipes-container {
+  margin-top: 30px;
+}
+body .recipes-container p.summary {
+  color: #2f2d2d;
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  opacity: 0.9;
+}
+body .recipes-container button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #4f4f4f;
+  font-family: "Blogger Bold";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 34px;
+  opacity: 0.9;
+}
+body .recipes-container .recipes {
+  margin-bottom: 60px;
+}
+body .recipes-container .recipes .recipes-title {
+  color: #4f4f4f;
+  font-family: "Blogger Medium";
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+body .recipes-container .recipes .card {
+  margin-bottom: 20px;
+}
+body .recipes-container .recipes .card .card-body {
+  position: absolute;
+  bottom: 0;
+  background: #f8f8f8;
+  width: 100%;
+  height: 70px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+body .recipes-container .recipes .card .card-body p {
+  color: #d90232;
+}
+body .product-line-container .product-line-title {
+  padding: 30px 0px;
+  color: #2a7bbe;
+  font-family: "Blogger Medium";
+  font-size: 50px;
+  font-weight: 500;
+}
+body .product-line-container .card-item .card {
+  height: 500px;
+  border-radius: 10px;
+  padding: 30px;
+}
+body .product-line-container .card-item .card:hover {
+  background-color: #f8f8f8;
+}
+body .product-line-container .card-item .card:hover .card-title a {
+  color: #dd0031;
+}
+body .product-line-container .card-item .card .card-title {
+  flex: 0;
+  margin-top: 4rem;
+}
+body .product-line-container .card-item .card .card-title a {
+  color: #4f4f4f;
+  font-family: "Blogger Medium";
+  font-size: 25px;
+  font-weight: 500;
+}
+body .product-line-container .card-item .card .card-title a:hover {
+  text-decoration: unset;
+}
+body .product-line-container .product-info {
+  margin-top: 50px;
+}
+body .product-line-container .product-info h5 {
+  color: #dd0031;
+  font-family: "Blogger Medium";
+  font-size: 35px;
+  font-weight: 500;
+}
+body .product-line-container .product-info p {
+  color: #4f4f4f;
+  font-family: "PT Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+body .product-line-container .find-us {
+  color: #dd0031;
+  font-family: "Blogger Medium";
+  font-size: 35px;
+  font-weight: 500;
+  padding: 30px 0px;
+}
+body .recipe-single-container .summary-recipe .ingredients-title {
+  color: #dd0031;
+  font-family: "Blogger Medium";
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+body .recipe-single-container .summary-recipe .steps > div.step-number {
+  text-align: center;
+  width: 42px;
+  height: 42px;
+  background: #dd0031;
+  border-radius: 50%;
+  flex: 0;
+}
+body .recipe-single-container .summary-recipe .steps > div.step-number span {
+  color: #ffffff;
+  font-family: "Blogger Medium";
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 37px;
+}
+body .recipe-single-container .summary-recipe .steps .step-description {
+  color: #2f2d2d;
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+}
+body .recipe-single-container .summary-recipe .jumbotron {
+  background-color: #f8f8f8;
+}
+body .recipe-single-container .summary-recipe .jumbotron ul li {
+  color: #2f2d2d;
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  list-style: none;
+}
+body .recipe-single-container .summary-recipe .product h5 {
+  color: #4f4f4f;
+  font-family: "Blogger Medium";
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  line-height: 37px;
+  text-transform: uppercase;
+}
+body .recipe-single-container .summary-recipe .product h3 {
+  color: #2a7bbe;
+  font-family: "Blogger Medium";
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 37px;
+}
+body .recipe-single-container .summary-recipe .product a {
+  max-width: 167px;
+  width: 100%;
+  text-align: left;
+  color: #fff;
+}
+body .recipe-single-container .summary-recipe .product a i {
+  float: right;
+  margin-top: 5px;
+}
+body .recipe-single-container .summary-recipe p.instructions {
+  color: #2f2d2d;
+  font-family: "PT Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+body .recipe-single-container .recipe-list p.h4 {
+  color: #dd0031;
+  font-family: "Blogger Bold";
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+body .recipe-single-container .recipe-list .card .card-body {
+  color: #4f4f4f;
+  font-family: "Blogger Medium";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  height: 67px;
+}
+body .card {
+  border: unset;
+}
+body .card .card-text {
+  color: #4f4f4f;
+  font-family: "Blogger Medium";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+}
+body .container-fluid {
+  /*     a {
+    color: #4f4f4f;
+    font-family: $font-blogger-medium;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: -15px;
+    &:hover {
+      text-decoration: none;
+    }
+  } */
+}
+body .container-fluid .product-fresa-small,
+body .container-fluid .product-vainilla-small,
+body .container-fluid .product-chocolate-small {
+  width: 134px;
+  height: 134px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  margin: 25px;
+  border-radius: 50%;
+  padding: 15px;
+}
+body .body-content {
+  max-width: 1300px;
+}
+body .body-content .jumbotron {
+  background-color: unset;
+  max-width: 818px;
+  line-height: 48px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+body .body-content .jumbotron .title {
+  color: #dd0031;
+  font-family: "Blogger Bold";
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+body .body-content .jumbotron .content {
+  color: #434343;
+  font-family: "Blogger Regular";
+  font-size: 35px;
+  opacity: 0.9;
+}
+body .body-content .jumbotron .content img {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  max-width: 980px;
+  right: 0;
+  height: 387px;
+  width: 100%;
+}
+body .body-content .plan {
+  padding-top: 60px;
+  max-width: 1300px;
+}
+body .body-content .plan .row {
+  max-width: 1300px;
+  margin-bottom: 200px;
+}
+body .body-content .plan .row .item {
+  flex-grow: 0;
+  margin-right: 20px;
+}
+body .body-content .plan .row .item img {
+  width: 100%;
+  height: 179px;
+  max-width: 391px;
+}
+body .body-content .plan .row .item img:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+body .body-content .slick-container a {
+  color: #2a7bbe;
+  font-family: "Blogger Medium";
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  margin-top: 60px;
+}
+body .body-content .slick-container a img {
+  width: 100%;
+  max-width: 215px;
+}
+body .body-content .slick-container a:hover {
+  text-decoration: none;
+}
+body .body-content .slick-container .slick-center.slick-active a {
+  color: #fff;
+}
+
+.how-it-works .lower-title {
+  color: #dd0031;
+  font-family: "Blogger Medium";
+  font-size: 35px;
+  font-weight: 500;
+  margin: 50px 0px;
+}
+.how-it-works .image-container .image-logo:hover {
+  transform: unset;
+}
+.how-it-works .image-container img {
+  margin: 20px 0px;
+}
+.how-it-works .image-container img:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.how-it-works .col-md-7 img {
+  margin: 30px 0px;
+}
+.how-it-works .col-md-7 .stretched-link {
+  text-decoration: none;
+}
+.how-it-works p {
+  color: #4f4f4f;
+  font-family: "Blogger Regular";
+  font-size: 30px;
+  line-height: 50px;
+}
+.how-it-works .tips {
+  padding-bottom: 80px;
+}
+.how-it-works .tips img {
+  height: 96px;
+}
+.how-it-works .tips .tip {
+  color: #2f2d2d;
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: unset;
+  margin-top: 30px;
+}
+
+.vainilla-container,
+.fresa-container,
+.chocolate-container {
+  padding-top: 30px;
+}
+.vainilla-container h2,
+.fresa-container h2,
+.chocolate-container h2 {
+  color: #2a7bbe;
+  font-family: "Blogger Medium";
+  font-size: 50px;
+  font-weight: 500;
+}
+.vainilla-container .summary,
+.fresa-container .summary,
+.chocolate-container .summary {
+  color: #4f4f4f;
+  font-family: "Blogger Medium";
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 37px;
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+.vainilla-container > .row .title-small a.fresa-descripcion,
+.vainilla-container > .row .title-small a.chocolate-descripcion,
+.vainilla-container > .row .title-small a.vainilla-descripcion,
+.fresa-container > .row .title-small a.fresa-descripcion,
+.fresa-container > .row .title-small a.chocolate-descripcion,
+.fresa-container > .row .title-small a.vainilla-descripcion,
+.chocolate-container > .row .title-small a.fresa-descripcion,
+.chocolate-container > .row .title-small a.chocolate-descripcion,
+.chocolate-container > .row .title-small a.vainilla-descripcion {
+  color: #4f4f4f;
+  font-family: "Blogger Medium";
+  font-size: 14px;
+  font-weight: 500;
+}
+.vainilla-container > .row .title-small a.fresa-descripcion:hover,
+.vainilla-container > .row .title-small a.chocolate-descripcion:hover,
+.vainilla-container > .row .title-small a.vainilla-descripcion:hover,
+.fresa-container > .row .title-small a.fresa-descripcion:hover,
+.fresa-container > .row .title-small a.chocolate-descripcion:hover,
+.fresa-container > .row .title-small a.vainilla-descripcion:hover,
+.chocolate-container > .row .title-small a.fresa-descripcion:hover,
+.chocolate-container > .row .title-small a.chocolate-descripcion:hover,
+.chocolate-container > .row .title-small a.vainilla-descripcion:hover {
+  text-decoration: none;
+}
+.vainilla-container .product-vainilla img,
+.vainilla-container .product-chocolate img,
+.vainilla-container .product-fresa img,
+.fresa-container .product-vainilla img,
+.fresa-container .product-chocolate img,
+.fresa-container .product-fresa img,
+.chocolate-container .product-vainilla img,
+.chocolate-container .product-chocolate img,
+.chocolate-container .product-fresa img {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+.vainilla-container .product-vainilla .image-info,
+.vainilla-container .product-chocolate .image-info,
+.vainilla-container .product-fresa .image-info,
+.fresa-container .product-vainilla .image-info,
+.fresa-container .product-chocolate .image-info,
+.fresa-container .product-fresa .image-info,
+.chocolate-container .product-vainilla .image-info,
+.chocolate-container .product-chocolate .image-info,
+.chocolate-container .product-fresa .image-info {
+  display: none;
+}
+.vainilla-container .product-vainilla .hover,
+.vainilla-container .product-chocolate .hover,
+.vainilla-container .product-fresa .hover,
+.fresa-container .product-vainilla .hover,
+.fresa-container .product-chocolate .hover,
+.fresa-container .product-fresa .hover,
+.chocolate-container .product-vainilla .hover,
+.chocolate-container .product-chocolate .hover,
+.chocolate-container .product-fresa .hover {
+  cursor: pointer;
+}
+.vainilla-container .product-vainilla .hover:hover img.image-info,
+.vainilla-container .product-chocolate .hover:hover img.image-info,
+.vainilla-container .product-fresa .hover:hover img.image-info,
+.fresa-container .product-vainilla .hover:hover img.image-info,
+.fresa-container .product-chocolate .hover:hover img.image-info,
+.fresa-container .product-fresa .hover:hover img.image-info,
+.chocolate-container .product-vainilla .hover:hover img.image-info,
+.chocolate-container .product-chocolate .hover:hover img.image-info,
+.chocolate-container .product-fresa .hover:hover img.image-info {
+  display: block;
+  position: absolute;
+  left: 85%;
+  bottom: -175px;
+}
+.vainilla-container .product-vainilla .col-md-6.big-image.hover:hover img.image-info,
+.vainilla-container .product-chocolate .col-md-6.big-image.hover:hover img.image-info,
+.vainilla-container .product-fresa .col-md-6.big-image.hover:hover img.image-info,
+.fresa-container .product-vainilla .col-md-6.big-image.hover:hover img.image-info,
+.fresa-container .product-chocolate .col-md-6.big-image.hover:hover img.image-info,
+.fresa-container .product-fresa .col-md-6.big-image.hover:hover img.image-info,
+.chocolate-container .product-vainilla .col-md-6.big-image.hover:hover img.image-info,
+.chocolate-container .product-chocolate .col-md-6.big-image.hover:hover img.image-info,
+.chocolate-container .product-fresa .col-md-6.big-image.hover:hover img.image-info {
+  left: 90%;
+}
+.vainilla-container .product-vainilla a.btn,
+.vainilla-container .product-chocolate a.btn,
+.vainilla-container .product-fresa a.btn,
+.fresa-container .product-vainilla a.btn,
+.fresa-container .product-chocolate a.btn,
+.fresa-container .product-fresa a.btn,
+.chocolate-container .product-vainilla a.btn,
+.chocolate-container .product-chocolate a.btn,
+.chocolate-container .product-fresa a.btn {
+  position: absolute;
+  bottom: -70px;
+  left: 35%;
+}
+.vainilla-container .brands-container .col-md-2,
+.fresa-container .brands-container .col-md-2,
+.chocolate-container .brands-container .col-md-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.vainilla-container .lower-title,
+.fresa-container .lower-title,
+.chocolate-container .lower-title {
+  color: #dd0031;
+  font-family: "Blogger Medium";
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.vainilla-container .find-us,
+.fresa-container .find-us,
+.chocolate-container .find-us {
+  color: #dd0031;
+  font-family: "Blogger Medium";
+  font-size: 35px;
+  font-weight: 500;
+}
+
+footer {
+  padding-bottom: 30px;
+  background-color: #f8f8f8;
+}
+footer .footer {
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+footer .footer > .footer-title > h3 {
+  text-align: center;
+  color: #dd0031;
+  font-family: "Blogger Medium";
+  font-size: 20px;
+  font-weight: 500;
+}
+footer .footer-menu .row .footer-menu {
+  margin-left: 10px;
+}
+footer .footer-menu .row .footer-menu ul li a {
+  width: 57px;
+  height: 22px;
+  color: #2f2d2d;
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  text-transform: uppercase;
+  margin-right: 70px;
+}
+footer .footer-menu .row .footer-menu ul li a:hover {
+  text-decoration: none;
+}
+footer .footer-menu .row .footer-menu ul li a.original {
+  text-transform: lowercase;
+  font-weight: 400;
+}
+footer .footer-menu .row .footer-menu ul li:hover a {
+  color: #de1a33;
+}
+footer .footer-menu .row .footer-menu ul li:hover a.original {
+  color: #2f2d2d;
+}
+footer .footer-copyright {
+  height: 16px;
+  color: #2f2d2d;
+  font-family: "PT Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 80px;
+}
+
+@media only screen and (max-width: 575px) {
+  body {
+    /*Plans*/
+  }
+  body #navbarNav > ul > li.nav-item.dropdown.show > ul {
+    position: absolute;
+  }
+  body header .navbar .navbar-nav {
+    padding: 20px;
+    box-shadow: 1px 1px 13px rgba(0, 0, 0, 0.32);
+    border-radius: 4px;
+  }
+  body header .navbar .navbar-nav .nav-item {
+    margin-top: 10px;
+  }
+  body .recipes-container {
+    text-align: center;
+  }
+  body .body-content .plan .plan-title img {
+    width: 100%;
+  }
+  body .body-content .plan .row {
+    margin-bottom: 10px;
+  }
+  body .body-content .plan .row .item {
+    margin-right: 0px;
+  }
+  body .img-info-container .img-info-container-child {
+    position: relative;
+  }
+  body .vainilla-container .product-vainilla .small-image,
+body .vainilla-container .product-vainilla .big-image,
+body .vainilla-container .product-chocolate .small-image,
+body .vainilla-container .product-chocolate .big-image,
+body .vainilla-container .product-fresa .small-image,
+body .vainilla-container .product-fresa .big-image,
+body .fresa-container .product-vainilla .small-image,
+body .fresa-container .product-vainilla .big-image,
+body .fresa-container .product-chocolate .small-image,
+body .fresa-container .product-chocolate .big-image,
+body .fresa-container .product-fresa .small-image,
+body .fresa-container .product-fresa .big-image,
+body .chocolate-container .product-vainilla .small-image,
+body .chocolate-container .product-vainilla .big-image,
+body .chocolate-container .product-chocolate .small-image,
+body .chocolate-container .product-chocolate .big-image,
+body .chocolate-container .product-fresa .small-image,
+body .chocolate-container .product-fresa .big-image {
+    text-align: center;
+  }
+  body .vainilla-container .product-vainilla img,
+body .vainilla-container .product-chocolate img,
+body .vainilla-container .product-fresa img,
+body .fresa-container .product-vainilla img,
+body .fresa-container .product-chocolate img,
+body .fresa-container .product-fresa img,
+body .chocolate-container .product-vainilla img,
+body .chocolate-container .product-chocolate img,
+body .chocolate-container .product-fresa img {
+    position: relative;
+    padding-bottom: 30px;
+  }
+  body .vainilla-container .product-vainilla a.btn,
+body .vainilla-container .product-chocolate a.btn,
+body .vainilla-container .product-fresa a.btn,
+body .fresa-container .product-vainilla a.btn,
+body .fresa-container .product-chocolate a.btn,
+body .fresa-container .product-fresa a.btn,
+body .chocolate-container .product-vainilla a.btn,
+body .chocolate-container .product-chocolate a.btn,
+body .chocolate-container .product-fresa a.btn {
+    position: relative;
+    bottom: 10px;
+    left: 0px;
+  }
+  body .vainilla-container .flex-xs-column,
+body .fresa-container .flex-xs-column,
+body .chocolate-container .flex-xs-column {
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  body footer .footer {
+    padding: 20px 0px;
+  }
+  body footer .container .row .footer-menu ul li {
+    margin-top: 30px;
+  }
+  body footer .container .row .footer-menu ul li a {
+    margin-right: 0px;
+  }
+  body footer .footer-copyright {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (min-width: 576px) {
+  body #navbarNav > ul > li.nav-item.dropdown.show > ul {
+    position: absolute;
+  }
+  body .vainilla-container .product-vainilla a.btn,
+body .vainilla-container .product-chocolate a.btn,
+body .vainilla-container .product-fresa a.btn,
+body .fresa-container .product-vainilla a.btn,
+body .fresa-container .product-chocolate a.btn,
+body .fresa-container .product-fresa a.btn,
+body .chocolate-container .product-vainilla a.btn,
+body .chocolate-container .product-chocolate a.btn,
+body .chocolate-container .product-fresa a.btn {
+    left: 20%;
+  }
+  body .slick-initialized .slick-slide a {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 1199px) {
+  body .slick-initialized .slick-slide a {
+    font-size: 20px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
