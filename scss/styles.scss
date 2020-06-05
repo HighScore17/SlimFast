@@ -688,25 +688,37 @@ footer {
       text-align: center;
     }
     /*Plans*/
-    .body-content .plan {
-      .plan-title {
-        img {
-          width: 100%;
-        }
+    .body-content {
+      .jumbotron .content img {
+        height: auto;
+        padding-top: 140px;
       }
-      .row {
-        margin-bottom: 10px;
-        .item {
-          margin-right: 0px;
+      .plan {
+        .plan-title {
+          img {
+            width: 100%;
+          }
+        }
+        .row {
+          margin-bottom: 10px;
+          .item {
+            margin-right: 0px;
+          }
         }
       }
     }
     .img-info-container .img-info-container-child {
       position: relative;
+      div.text-center {
+        padding: 0px;
+      }
     }
     .vainilla-container,
     .fresa-container,
     .chocolate-container {
+      h2 {
+        font-size: 45px;
+      }
       .product-vainilla,
       .product-chocolate,
       .product-fresa {
@@ -767,10 +779,26 @@ footer {
     }
   }
 }
+@media only screen and(min-width: $breakpoint-tablet) {
+  body .img-info-container .img-info-container-child {
+    max-width: 400px;
+    height: auto;
+    div {
+      padding: 0px;
+    }
+  }
+}
 @media only screen and(min-width: $breakpoint-desktop) {
   body {
     .slick-initialized .slick-slide a {
       font-size: 20px;
+    }
+    .img-info-container .img-info-container-child {
+      max-width: 600px;
+      height: 246px;
+      div {
+        padding: 25px 40px;
+      }
     }
   }
 }
