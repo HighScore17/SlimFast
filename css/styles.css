@@ -150,7 +150,7 @@ body .recipes-container .recipes .card .card-body {
   bottom: 0;
   background: #f8f8f8;
   width: 100%;
-  height: 70px;
+  height: auto;
   font-family: "PT Sans", sans-serif;
   font-size: 20px;
   font-weight: 700;
