@@ -150,7 +150,7 @@ body .recipes-container .recipes .card .card-body {
   bottom: 0;
   background: #f8f8f8;
   width: 100%;
-  height: 70px;
+  height: auto;
   font-family: "PT Sans", sans-serif;
   font-size: 20px;
   font-weight: 700;
@@ -673,6 +673,10 @@ footer .footer-copyright {
   body .recipes-container {
     text-align: center;
   }
+  body .body-content .jumbotron .content img {
+    height: auto;
+    padding-top: 140px;
+  }
   body .body-content .plan .plan-title img {
     width: 100%;
   }
@@ -684,6 +688,14 @@ footer .footer-copyright {
   }
   body .img-info-container .img-info-container-child {
     position: relative;
+  }
+  body .img-info-container .img-info-container-child div.text-center {
+    padding: 0px;
+  }
+  body .vainilla-container h2,
+body .fresa-container h2,
+body .chocolate-container h2 {
+    font-size: 45px;
   }
   body .vainilla-container .product-vainilla .small-image,
 body .vainilla-container .product-vainilla .big-image,
@@ -769,9 +781,25 @@ body .chocolate-container .product-fresa a.btn {
     font-size: 12px;
   }
 }
+@media only screen and (min-width: 768px) {
+  body .img-info-container .img-info-container-child {
+    max-width: 400px;
+    height: auto;
+  }
+  body .img-info-container .img-info-container-child div {
+    padding: 0px;
+  }
+}
 @media only screen and (min-width: 1199px) {
   body .slick-initialized .slick-slide a {
     font-size: 20px;
+  }
+  body .img-info-container .img-info-container-child {
+    max-width: 600px;
+    height: 246px;
+  }
+  body .img-info-container .img-info-container-child div {
+    padding: 25px 40px;
   }
 }
 
